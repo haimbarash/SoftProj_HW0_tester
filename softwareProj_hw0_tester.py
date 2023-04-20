@@ -1,6 +1,10 @@
 import os
 
+# for runing on Windows
 fileName = "YOUR_FILE_NAME.exe" # make sure to write your .exe file name!!
+
+# for runing on Linux (Nova)
+# fileName = "./a.out" 
 
 # list of test cases in the form of (source_base, target_base, input_number, expected_output)
 test_cases_st1 = [
